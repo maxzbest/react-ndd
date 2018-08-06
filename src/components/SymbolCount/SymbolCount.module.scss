@@ -1,0 +1,11 @@
+@import '../../config/variables.scss';
+
+.valid {
+  border-color: $symbol-count-valid;
+  color: $symbol-count-valid;
+  font-size: 13px;
+  font-style: italic;
+  padding-left: 10px;
+  text-align: left;
+  width: 100%;
+}

@@ -1,0 +1,16 @@
+@import '../../config/variables.scss';
+
+.footer {
+  background: $bg-footer;
+  color: $font-color-footer;
+
+  nav {
+    background: $bg-footer;
+    border-bottom: 1px solid $background-nav;
+  }
+
+  &__container {
+    margin: 0 auto;
+    width: $main-width-content;
+  }
+}

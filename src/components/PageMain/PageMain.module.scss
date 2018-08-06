@@ -1,0 +1,36 @@
+.prevcards {
+  margin-bottom: 40px;
+
+  &__title {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 65px;
+    text-align: center;
+  }
+
+  &__items {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 65px;
+
+    a {
+      width: calc(20% - 10px);
+    }
+  }
+}
+
+.documents {
+  &__title {
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin-top: 0;
+    text-align: center;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+}

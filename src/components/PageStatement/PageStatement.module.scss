@@ -1,0 +1,66 @@
+@import '../../config/variables.scss';
+
+.page {
+  &__statements {
+    margin: 50px auto;
+    width: 1080px;
+  }
+}
+
+.filter {
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+
+  &__container {
+    background-color: $filterRow-bc;
+    border-top: 3px solid $border-top;
+    height: 352px;
+    padding: 30px 0;
+    width: 800px;
+  }
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+
+.input {
+  &__field {
+    display: inline-block;
+    margin-bottom: 30px;
+    width: 340px;
+
+    input {
+      height: 30px;
+      padding: 0;
+    }
+  }
+
+  &__title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin: 0 0 5px 0;
+    text-align: left;
+  }
+
+  &__label {
+    font-size: 13px;
+    line-height: 30px;
+    margin-bottom: 5px;
+    text-align: left;
+    vertical-align: baseline;
+    width: auto;
+  }
+}
+
+.field {
+  display: flex;
+  justify-content: space-between;
+  width: 340px;
+}

@@ -1,0 +1,28 @@
+@import '../../config/variables.scss';
+
+.document__item {
+  align-items: center;
+  border-bottom: 1px solid $border-field;
+  border-top: 1px solid $border-field;
+  display: flex;
+  flex-basis: calc(50% - 20px);
+  justify-content: space-between;
+  padding: 20px 0;
+
+  &:hover {
+    color: $turquoise;
+  }
+
+  &:visited {
+    color: $black;
+  }
+}
+
+.document__name {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  line-height: 16px;
+  padding-left: 40px;
+  text-align: left;
+  width: 100%;
+}

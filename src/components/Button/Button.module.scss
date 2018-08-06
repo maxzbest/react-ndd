@@ -1,0 +1,140 @@
+@import '../../config/variables.scss';
+
+.btn {
+  border: 0;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 18px;
+  height: 40px;
+  line-height: 38px;
+  outline: none;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+
+  svg {
+    display: inline-block;
+    margin-bottom: 3px;
+    margin-right: 4px;
+    vertical-align: middle;
+  }
+}
+
+.default {
+  background: $white;
+  color: $lighter-blue;
+  fill: $lighter-blue;
+  font-weight: bold;
+  padding: 0 25px;
+  transition: background 0.25s ease;
+
+  &:hover {
+    background: $white;
+  }
+}
+
+.warning {
+  background: $orange;
+  color: $white;
+  fill: $white;
+  font-weight: bold;
+  padding: 0 25px;
+  transition: background 0.25s ease;
+
+  &:hover {
+    background: $darken-orange;
+  }
+}
+
+.clear {
+  background: transparent;
+  border-bottom: 1px dotted $blue;
+  color: $blue;
+  font-size: 13px;
+  height: 20px;
+  line-height: normal;
+  padding: 0;
+  transition: color $standart_time ease, fill $standart_time ease, background $standart_time ease;
+
+  &:hover {
+    border-bottom-color: transparent;
+    color: $turquoise;
+  }
+}
+
+.info {
+  background: $white;
+  color: $lighter-blue;
+  fill: $lighter-blue;
+  font-weight: bold;
+  padding: 0;
+  transition: background 0.25s ease;
+
+  svg {
+    fill: $lighter-blue;
+  }
+
+  &:hover {
+    background: $white;
+  }
+}
+
+.disabled {
+  background: $gray;
+  color: $white;
+  cursor: default;
+  font-weight: bold;
+  padding: 0 25px;
+}
+
+.invert {
+  background-color: $white;
+  color: $orange;
+  font-weight: bold;
+  outline: 2px solid $orange;
+  outline-offset: -2px;
+  padding: 0 25px;
+  transition: background 0.25s ease;
+
+  &:hover {
+    background: $darken-orange;
+    color: $white;
+    outline-color: $darken-orange;
+  }
+}
+
+.search {
+  color: $search-text;
+
+  svg {
+    margin: 5px;
+  }
+
+  &:hover {
+    background-color: $bg-search-hover;
+  }
+}
+
+.link {
+  background-color: $transparent;
+  color: $blue;
+  font-size: 14px;
+  height: auto;
+  line-height: 14px;
+  padding-left: 3px;
+  transition: $transition-link;
+
+  svg {
+    margin-left: 3px;
+    vertical-align: bottom;
+  }
+
+  &:visited {
+    color: $blue;
+  }
+
+  &:hover {
+    color: $turquoise;
+  }
+}

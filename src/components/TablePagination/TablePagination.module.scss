@@ -1,0 +1,43 @@
+@import '../../config/variables.scss';
+
+.interval {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.pagination {
+  display: flex;
+  padding-left: 0;
+}
+
+.section {
+  background-color: $white;
+  border: 1px solid $background-body;
+  list-style-type: none;
+  padding: 15px 20px;
+}
+
+.link {
+  color: $blue;
+  transition: color ease 0.15s;
+
+  &:hover {
+    color: $turquoise;
+  }
+}
+
+.active .link {
+  color: $black;
+  cursor: default;
+}
+
+.disabled .link {
+  color: $disabled-text;
+  cursor: default;
+
+  &:hover {
+    color: $disabled-text;
+  }
+}

@@ -1,0 +1,30 @@
+@import '../../config/variables.scss';
+
+.copyright {
+  color: $copyright-text;
+  padding-bottom: 30px;
+  text-align: left;
+
+  &__info {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
+  &__support {
+    font-size: 12px;
+    line-height: 13px;
+  }
+
+  &__link {
+    color: $white;
+    margin-left: 3px;
+
+    &:visited {
+      color: $white;
+    }
+
+    &:hover {
+      color: $darken-orange;
+    }
+  }
+}

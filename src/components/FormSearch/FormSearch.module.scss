@@ -1,0 +1,18 @@
+@import '../../config/variables.scss';
+
+.field__search {
+  border: 1px solid $border-field;
+  display: flex;
+
+  input {
+    border: 0;
+    display: flex;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    height: 40px;
+    padding-left: 15px;
+    position: relative;
+    width: 100%;
+  }
+}

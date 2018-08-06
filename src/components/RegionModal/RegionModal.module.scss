@@ -1,0 +1,14 @@
+@import '../../variables/colors.scss';
+
+.region {
+  width: 450px;
+
+  &__footer {
+    padding-top: 30px;
+    text-align: right;
+  }
+}
+
+.submit {
+  display: inline-block;
+}

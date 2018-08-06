@@ -1,0 +1,29 @@
+.show {
+  display: table-row;
+}
+
+.hide {
+  display: none;
+}
+
+td.innerdoc {
+  padding: 10px 7px 10px 30px;
+}
+
+.title span {
+  display: inline-block;
+  font-weight: bold;
+  line-height: 18px;
+  padding-left: 3px;
+  vertical-align: bottom;
+}
+
+.title svg {
+  display: inline-block;
+  padding-bottom: 2px;
+  vertical-align: top;
+}
+
+.tdimages {
+  text-align: center;
+}

@@ -1,0 +1,16 @@
+@import '../../config/variables.scss';
+
+.textarea {
+  border: 1px solid $input-border;
+  font-size: 13px;
+  height: 200px;
+  outline: none;
+  padding: 10px 0 0 10px;
+  resize: vertical;
+  width: 100%;
+}
+
+.textarea__title {
+  display: inline-block;
+  vertical-align: middle;
+}

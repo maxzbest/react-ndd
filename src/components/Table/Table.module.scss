@@ -1,0 +1,204 @@
+@import '../../config/variables.scss';
+
+.title {
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.table {
+  display: table-row;
+  font-family: 'Arial Narrow', Arial, Tahoma, Verdana, sans-serif;
+
+  th {
+    margin: 0 0;
+    padding: 0 0;
+  }
+}
+
+.table,
+.body {
+  background-color: $white;
+  border: 3px solid $black;
+  border-collapse: collapse;
+  font-size: 13px;
+  table-layout: fixed;
+  width: 100%;
+
+  th {
+    border: 1px solid $background-body;
+    font-weight: 100;
+    padding: 5px 7px;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+  }
+
+  a {
+    color: $link-table;
+  }
+}
+
+.header {
+  border-bottom: 3px solid transparent;
+}
+
+.sort {
+  border-bottom: 4px solid $black;
+  border-top: 3px solid transparent;
+
+  svg {
+    fill: $gray;
+    transition: fill ease 0.15s;
+
+    &:hover {
+      fill: $black;
+    }
+  }
+}
+
+.body {
+  border: 1px solid $background-body;
+  text-align: left;
+  vertical-align: top;
+
+  td {
+    border: 1px solid $background-body;
+    border-top: 3px solid transparent;
+    padding: 10px 7px;
+  }
+
+  a {
+    color: $black;
+    text-decoration: none;
+    transition: color ease 0.15s;
+  }
+
+  a:hover {
+    color: $blue;
+  }
+}
+
+.sorted {
+  background: $periwinkle;
+  font-weight: bold;
+}
+
+thead tr:nth-child(odd) th:nth-child(2) button:first-child svg {
+  fill: $black;
+}
+
+.table_statements {
+  box-sizing: border-box;
+
+  th {
+    padding: 15px 7px;
+  }
+
+  .sort_switches th {
+    padding: 5px 7px;
+  }
+}
+
+tbody td:first-child {
+  color: $gray;
+  font-size: 11px;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+  width: 43px;
+}
+
+tbody tr:nth-child(odd) td {
+  background: $almost-white;
+}
+
+tbody tr:nth-child(odd) td:nth-child(2) {
+  background: $pale-blue;
+}
+
+thead tr:nth-child(odd) th:nth-child(2) {
+  background: $pale-blue;
+  font-weight: bold;
+}
+
+tbody tr:nth-child(even) td:nth-child(2) {
+  background: $periwinkle;
+}
+
+.wpap_table {
+  margin-bottom: 30px;
+}
+
+.search_wrap {
+  font-family: 'Arial Narrow', Arial, Tahoma, Verdana, sans-serif;
+  font-size: 18px;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.search_result {
+  font-weight: bold;
+}
+
+.wraperQieries {
+  ul {
+    padding: 0;
+  }
+}
+
+.cell_size {
+  width: 51px;
+}
+
+.cell_smallMiddle {
+  width: 140px;
+}
+
+.cell_largest {
+  width: 292px;
+}
+
+.cell_small {
+  width: 175px;
+}
+
+.doc {
+  width: 100%;
+}
+
+.cell_115 {
+  box-sizing: border-box;
+  width: 115px;
+}
+
+.cell_100 {
+  box-sizing: border-box;
+  width: 100px;
+}
+
+.cell_261 {
+  box-sizing: border-box;
+  width: 261px;
+}
+
+.cell_260 {
+  box-sizing: border-box;
+  width: 260px;
+}
+
+.cell_43 {
+  box-sizing: border-box;
+  width: 43px;
+}
+
+.cell_921 {
+  box-sizing: border-box;
+  width: 921px;
+}

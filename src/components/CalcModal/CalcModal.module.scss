@@ -1,0 +1,29 @@
+@import '../../config/variables.scss';
+
+.modal {
+  width: 800px;
+}
+
+.input {
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  text-align: left;
+}
+
+.submit {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+
+  p {
+    color: $gray;
+    font-size: 12px;
+    font-style: italic;
+    width: 60%;
+  }
+}

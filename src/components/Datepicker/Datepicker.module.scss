@@ -1,0 +1,10 @@
+@import '../../config/variables.scss';
+
+.date {
+  border: 1px solid $lighten-gray;
+  height: 30px;
+  line-height: 30px;
+  padding-left: 10px;
+  vertical-align: baseline;
+  width: 140px;
+}

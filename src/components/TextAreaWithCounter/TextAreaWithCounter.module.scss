@@ -1,0 +1,11 @@
+@import '../../config/variables.scss';
+
+.invalid {
+  border-color: $symbol-count-invalid;
+  color: $symbol-count-invalid;
+  font-size: 13px;
+  font-style: italic;
+  padding-left: 10px;
+  text-align: left;
+  width: 100%;
+}

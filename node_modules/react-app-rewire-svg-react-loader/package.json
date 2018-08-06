@@ -1,0 +1,14 @@
+{
+  "name": "react-app-rewire-svg-react-loader",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^21.2.1"
+  },
+  "dependencies": {
+    "svg-react-loader": "^0.4.5"
+  }
+}

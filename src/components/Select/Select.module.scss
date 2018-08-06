@@ -1,0 +1,37 @@
+@import '../../config/variables.scss';
+
+.select {
+  font-family: PT Sans, Helvetica, sans-serif;
+  font-size: 14px;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  text-align: left;
+  width: 100%;
+
+  & :global(.Select-control) {
+    background: linear-gradient(to bottom, $smoke-white, $white);
+    border-radius: 0;
+    height: 28px;
+  }
+
+  & :global(.Select-input) {
+    height: 28px;
+    overflow: hidden;
+    width: 100%;
+  }
+}
+
+:global(.Select-option):hover {
+  background-color: white;
+  color: $blue;
+}
+
+:global(.Select-control .Select-value) {
+  background: linear-gradient(to bottom, $smoke-white, $white);
+  line-height: 28px !important;
+}
+
+:global(.Select.is-focused:not(.is-open) > .Select-control) {
+  border-color: $lighten-gray;
+  box-shadow: none;
+}

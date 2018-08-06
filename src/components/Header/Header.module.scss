@@ -1,0 +1,52 @@
+@import '../../config/variables.scss';
+
+.header {
+  background-color: $white;
+
+  &__content {
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 19px 0;
+    width: $main-width-content;
+  }
+
+  &__region {
+    margin: 0 auto;
+    padding: 0;
+    width: $main-width-content;
+  }
+
+  &__logo {
+    flex-basis: 25%;
+    text-align: left;
+    text-decoration: none;
+  }
+
+  &__title {
+    flex-basis: 40%;
+    text-align: left;
+
+    a {
+      color: $black;
+      font-size: 18px;
+      line-height: 25px;
+
+      &:visited {
+        color: $black;
+      }
+
+      &:hover {
+        color: $link-header-hover;
+        transition: 0.15s;
+      }
+    }
+  }
+
+  &__search {
+    flex-basis: 35%;
+    padding-left: 65px;
+  }
+}

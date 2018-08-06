@@ -1,0 +1,107 @@
+@import '../../config/variables.scss';
+
+.card {
+  background: $white;
+  border-top: 3px solid $black;
+  color: $black;
+  display: block;
+  height: 100%;
+  margin-bottom: 20px;
+  padding: 0 10px;
+  width: 100%;
+
+  svg {
+    bottom: 20px;
+    fill: $blue;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+  }
+
+  &:hover {
+    color: $black;
+  }
+
+  &__svg {
+    bottom: 20px;
+    fill: $turquoise;
+    height: 50px;
+    left: 50%;
+    position: absolute;
+    width: 50px;
+  }
+
+  &__item {
+    text-align: center;
+  }
+
+  &__header {
+    height: 75px;
+    position: relative;
+  }
+
+  &__title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    height: 60px;
+    line-height: 1.2;
+    margin-bottom: 30px;
+
+    &_text {
+      font-size: 16px;
+      left: 0;
+      position: relative;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+    }
+  }
+
+  &__footer {
+    position: relative;
+
+    &::before {
+      border: 5px solid $lighten-gray;
+      border-left-color: transparent;
+      border-top-color: transparent;
+      content: '';
+      font-size: 0;
+      height: 0;
+      left: 31px;
+      position: absolute;
+      top: -10px;
+      width: 0;
+      z-index: 2;
+    }
+
+    &::after {
+      border: 5px solid $lighten-gray;
+      border-bottom-color: $white;
+      border-left-color: transparent;
+      border-right-color: $white;
+      border-top-color: transparent;
+      content: '';
+      left: 31px;
+      left: 30px;
+      position: absolute;
+      top: -10px;
+      top: -8px;
+      z-index: 2;
+    }
+
+    &_wrap {
+      border-top: 1px solid $lighten-gray;
+      padding-top: 20px;
+      position: relative;
+      z-index: 1;
+    }
+
+    &_text {
+      font-family: Georgia, Helvetica, sans-serif;
+      font-size: 12px;
+      font-style: italic;
+      line-height: 18px;
+    }
+  }
+}

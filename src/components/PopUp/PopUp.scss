@@ -1,0 +1,12 @@
+@import '../../config/variables.scss';
+
+.modal {
+  border-top: 3px solid $border-top;
+  max-width: 100%;
+  padding: 15px;
+  top: -10%;
+}
+
+.close {
+  outline: none;
+}

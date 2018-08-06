@@ -1,0 +1,117 @@
+@import '../../config/variables.scss';
+
+.title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  text-align: left;
+}
+
+.flexcontainer {
+  align-items: stretch;
+  display: flex;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.wrapper {
+  min-height: 1px;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+  width: 100%;
+}
+
+.feedbackform {
+  background: $form-background;
+  border-top: 3px solid $form-border-top;
+  margin-bottom: 30px;
+  padding: 35px 40px 40px;
+  position: relative;
+
+  &__item {
+    font-size: 12px;
+    margin-bottom: 30px;
+  }
+
+  &__label {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin-bottom: 5px;
+    text-align: left;
+
+    & abbr {
+      margin-right: 10px;
+    }
+  }
+
+  &__cell {
+    position: relative;
+    text-align: left;
+  }
+
+  &__input {
+    background: linear-gradient(to bottom, $input-gradient-top, $input-gradient-bottom);
+    border: 1px solid $input-border;
+    height: 30px;
+    margin-bottom: 5px;
+    outline: none;
+    padding-left: 10px;
+    width: 100%;
+  }
+}
+
+.textarea {
+  background: linear-gradient(to bottom, $input-gradient-top, $input-gradient-bottom);
+  border: 1px solid $input-border;
+  font-size: 13px;
+  height: 200px;
+  outline: none;
+  padding: 10px 0 0 10px;
+  resize: vertical;
+  width: 100%;
+}
+
+.errornotice {
+  color: $symbol-count-invalid;
+  font-size: 12px;
+  font-style: italic;
+  padding-left: 10px;
+  width: 100%;
+}
+
+.errorborder {
+  border-color: $symbol-count-invalid;
+}
+
+.invalid {
+  border-color: $symbol-count-invalid;
+  color: $symbol-count-invalid;
+  font-size: 13px;
+  font-style: italic;
+  padding-left: 10px;
+  text-align: left;
+  width: 100%;
+}
+
+.rowtop {
+  display: flex;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.rowbottom {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: -20px;
+  margin-right: -20px;
+  padding-right: 20px;
+}
+
+.col {
+  min-height: 1px;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+  width: 50%;
+}
